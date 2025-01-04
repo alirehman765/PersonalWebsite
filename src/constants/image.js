@@ -13,7 +13,7 @@ import githubLogo from "../assets/logo/github-logo.svg";
 import nextLogo from "../assets/logo/next-logo.svg";
 import nodejsLogo from "../assets/logo/nodejs-logo.svg";
 import mongodbLogo from "../assets/logo/mongodb-logo.svg";
-import postgreSQLLogo from "../assets/logo/postgresql-logo.svg";
+import postgresqlLogo from "../assets/logo/postgresql-logo.svg";
 import hubspotLogo from "../assets/logo/hubspot-logo.svg";
 import felixImage from "../assets/my_pic.png";
 import catifyImage from "../assets/projects/catify-visible.png";
@@ -27,7 +27,7 @@ import successIllustration from "../assets/illustrations/success-vector.svg";
 
 export default {
   emailIcon,
-  postgreSQLLogo,
+  postgresqlLogo,
   mongodbLogo,
   nodejsLogo,
   upworkIcon,

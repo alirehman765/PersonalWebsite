@@ -20,13 +20,17 @@ const projects = [
   {
     id: 2,
     image: images.slothImage,
-    heading: "ClassicalArabicPoems",
+    heading: "ClassicalArabicPoem",
     description:
       "<p>I would say this is the first projet that I collaborated with an online friend (who is responsible for the backend development) for the backend we used node js with a combination of the  auth. <br> <br> Initially the plan was to implement this using react but due to some time conflict we agreed to just use node js + basic HTML & TailwindCSS.</p>",
       websiteLink: "https://github.com/SoftwareConstructionAndDev/project-se3001-bugbusters/tree/master/ClassicalArabicPoems%20Setup",
     // techno
-   Java:true,
-   batchfile:true
+   html: true,
+   css: true,
+   javascript: true,
+   java: true,
+
+
   },
   {
     id: 3,
@@ -47,7 +51,7 @@ const projects = [
   {
     id: 4,
     image: images.sunnysideImage,
-    heading: "EmpowerHer..InProgress",
+    heading: "EmpowerHer....",
     description:
       "<p>Advance PERN Stack project! Also had a lot of fun working with the UI of this project.EmpowerHer is a marketplace built with React, Vite, TailwindCSS, Next.js, PostgreSQL, and JavaScript. It supports women entrepreneurs by providing tools for business management, mentorship, and a platform to sell sustainable products</p>",
       websiteLink: "https://ali-rehman.com/",
@@ -57,9 +61,9 @@ const projects = [
     react: true,
     nodejs:true,
     mongodb: true,
-    postgresql: true,
     next: true,
     tailwind: true,
+    postgresql: true,
 
    
   },
