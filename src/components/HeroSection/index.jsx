@@ -1,6 +1,8 @@
 import React from "react";
 import images from "../../constants/image";
 import { motion } from "framer-motion";
+import { FaEye } from "react-icons/fa";
+import './HeroSection.css'; // Assuming you have a CSS file for HeroSection styles
 
 const socials = [
   {
@@ -33,8 +35,9 @@ const HeroSection = () => {
               transition={{ type: "linear", duration: 0.5 }}
               className="hero__heading"
             >
-              Ali Rehman.
+              Ali Rehman
             </motion.h1>
+            <FaEye className="eye-icon" />
           </div>
         </div>
         <div className="w-full relative bottom-20 md:w-auto md:absolute md:top-[70%]">
@@ -60,7 +63,7 @@ const HeroSection = () => {
                 key={index}
                 className="bg-neutral w-max rounded-full hover:bg-neutral-300 dark:bg-primary-400 dark:hover:bg-primary-300"
               >
-                <a href={social.link} target="_blank">
+                <a href={social.link} target="_blank" rel="noopener noreferrer">
                   <img
                     className="h-14 w-14 p-4 transition-all dark:invert"
                     src={social.logo}

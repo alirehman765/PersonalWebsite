@@ -26,6 +26,7 @@ import successIllustration from "../assets/illustrations/success-vector.svg";
 
 
 export default {
+
   emailIcon,
   postgresqlLogo,
   mongodbLogo,
