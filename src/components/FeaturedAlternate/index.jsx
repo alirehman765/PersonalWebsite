@@ -34,12 +34,12 @@ const projects = [
   },
   {
     id: 3,
-    image: images.shortlyImage,
+    image: images.pixiedustImage,
     heading: "PixieDust",
     description:
       "PixieDust is a bakery management system built with the MERN stack, streamlining order processing, inventory tracking, and customer management. It features a user-friendly interface, real-time updates, and secure payment integration for a seamless bakery experience.",
-      websiteLink: "https://ali-rehman.com/",
-    githubLink: "https://github.com/MominaFaisal03/Pixie-Dust-MERN-Web-Final-Project",
+      websiteLink: "https://pixie-dust-mern-web-based-bakery.vercel.app/",
+    githubLink: "https://github.com/alirehman765/Pixie-Dust-MERN-Web-Based-Bakery",
     // techno
     react: true,
     html: true,
