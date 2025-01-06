@@ -7,11 +7,11 @@ import { motion } from "framer-motion";
 const projects = [
   {
     id: 1,
-    image: images.agencyImage,
+    image: images.personalportfoliodashboard,
     heading: "Ali Rehman's Website Social Portfolio",
     description:
       "<p>A simple personal portfolio website built with HTML, CSS, and JavaScript showcases an individual’s skills, projects, and contact details. It includes sections like Home, About, Portfolio, and Contact, with responsive design and basic interactive features for an engaging user experience.</p>",
-    websiteLink: "https://github.com/AliRehman12/Social_Portfolio",
+    websiteLink: "https://github.com/alirehman765/Personal-Portfolio-Web",
     // techno
     html: true,
     css: true,
@@ -23,14 +23,11 @@ const projects = [
     heading: "ClassicalArabicPoem",
     description:
       "<p>I would say this is the first projet that I collaborated with an online friend (who is responsible for the backend development) for the backend we used node js with a combination of the  auth. <br> <br> Initially the plan was to implement this using react but due to some time conflict we agreed to just use node js + basic HTML & TailwindCSS.</p>",
-      websiteLink: "https://github.com/SoftwareConstructionAndDev/project-se3001-bugbusters/tree/master/ClassicalArabicPoems%20Setup",
+      githubLink: "https://github.com/SoftwareConstructionAndDev/project-se3001-bugbusters/tree/master/ClassicalArabicPoems%20Setup",
     // techno
    html: true,
    css: true,
    javascript: true,
-   java: true,
-
-
   },
   {
     id: 3,
